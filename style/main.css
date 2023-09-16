@@ -1,0 +1,7 @@
+@import "./style.css";
+
+@import "./layout/header.css";
+@import "./layout/navbar.css";
+@import "./layout/contact.css";
+
+@import "./layout/footer.css";

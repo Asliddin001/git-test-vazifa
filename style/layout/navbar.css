@@ -1,0 +1,36 @@
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 3.2rem;
+}
+
+.nav-img {
+    margin-right: 2rem;
+}
+
+nav>ul>li>a {
+    color: rgba(6, 33, 38, 0.60);
+    font-size: 1.6rem;
+    font-weight: 500;
+    transition: .3s ease-in-out;
+}
+
+nav>ul>li>a:hover {
+    color: #E5661E;
+}
+
+.nav-btn button {
+    padding: 1.2rem 3rem;
+    border-radius: 4rem;
+    background: #24BEE0;
+    color: #fff;
+}

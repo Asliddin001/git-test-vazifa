@@ -1,0 +1,56 @@
+footer {
+    width: 100%;
+    background: #F7FCFD;
+}
+
+.footer-container {
+    width: 100%;
+    padding: 7 18.6rem 6.4rem 18.4rem;
+    display: grid;
+    grid-template-columns: 28rem 9rem 15.9rem 28rem;
+}
+
+
+
+.footer-container ul:nth-child(1) {
+    border: 1px solid red;
+    display: grid;
+    gap: 2rem;
+}
+
+.footer-container ul:nth-child(1) li>a {
+    color: rgba(6, 33, 38, 0.60);
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+
+.footer-container ul:nth-child(1) li:nth-child(3) a {
+    color: #062126;
+}
+
+.footer-logos {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5rem;
+    border: 1px solid red;
+    justify-content: center;
+}
+
+.twitter::before {
+    content: '';
+    position: absolute;
+    width: 5rem;
+    height: 5rem;
+    background: url(../../img/footer/Ellipse\ 5.png) no-repeat center / cover;
+    margin-left: 1rem;
+}
+
+.facebook::before {
+    content: '';
+    position: absolute;
+    width: 5rem;
+    height: 5rem;
+    background: url(../../img/footer/Ellipse\ 5.png) no-repeat center / cover;
+    margin-left: 1rem;
+}
